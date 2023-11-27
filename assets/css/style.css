@@ -15,7 +15,7 @@
    * COLORS
    */
 
-  --gold-crayola: hsl(20, 70%, 50%);
+  --gold-crayola: hsl(90, 50%, 35%);
   --quick-silver: hsla(0, 0%, 65%, 1);
   --davys-grey: hsla(30, 3%, 34%, 1);
   --smoky-black-1: hsla(40, 12%, 5%, 1);
@@ -28,9 +28,9 @@
   --white: hsla(0, 0%, 100%, 1);
   --white-alpha-20: hsla(0, 0%, 100%, 0.2);
   --white-alpha-10: hsla(0, 0%, 100%, 0.1);
-  --black: hsla(0, 0%, 0%, 1);
   --black-alpha-80: hsla(0, 0%, 0%, 0.8);
   --black-alpha-15: hsla(0, 0%, 0%, 0.15);
+  --black: hsl(0, 0%, 0%);
 
   /**
    * GRADIENT COLOR
@@ -781,12 +781,12 @@ body.nav-active {
 }
 
 .navbar-list {
-  border-block-end: 1px solid var(--white-alpha-20);
+  border-block-end: 8px solid var(--white-alpha-20);
   margin-block-end: 100px;
 }
 
 .navbar-item {
-  border-block-start: 1px solid var(--white-alpha-20);
+  border-block-start: 4px solid var(--white-alpha-20);
 }
 
 .navbar-link {
